@@ -11,7 +11,7 @@ const Responses = [
     },
 
     {
-        name: 'shapeColorChoice',
+        name: 'ColorChoice',
         message: 'What is the color of your shape',
         type: 'list',
         choices: ['color keyword', 'hexadecimal']
@@ -22,7 +22,7 @@ const Responses = [
         name: "shapeColor",
         message: "Enter the shape color",
         when: (answers) => {
-            if(answers.shapeColorChoice === 'color keyword') {
+            if(answers.ColorChoice === 'color keyword') {
                 return true;
             }
             return false;
@@ -42,7 +42,7 @@ const Responses = [
         name: "shapeColor",
         message: "Enter the shape hexadecimal",
         when: (answers) => {
-            if(answers.shapeColorChoice === 'hexadecimal') {
+            if(answers.ColorChoice === 'hexadecimal') {
                 return true;
             }
             return false;
@@ -71,7 +71,7 @@ const Responses = [
 
     
     {
-        name: 'textColorChoice',
+        name: 'textColoroptions',
         message: 'choose your text color ',
         type: 'list',
         choices: ['color keyword', 'hexadecimal']
@@ -82,7 +82,7 @@ const Responses = [
         name: "textColor",
         message: "Enter the text color",
         when: (answers) => {
-            if(answers.textColorChoice === 'color keyword') {
+            if(answers.textColoroptions === 'color keyword') {
                 return true;
             }
             return false;
@@ -102,7 +102,7 @@ const Responses = [
         name: "textColor",
         message: "Enter the text hexadecimal number",
         when: (answers) => {
-            if(answers.textColorChoice === 'hexadecimal') {
+            if(answers.textColoroptions === 'hexadecimal') {
                 return true;
             }
             return false;
