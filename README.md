@@ -19,6 +19,10 @@
   ## Usage
   After packages are installed you will be able to run your code.
   
+
+https://github.com/JMShultz/EasyLogo/assets/149431333/28ecb5eb-6038-4acb-81a5-25215c68b4d7
+
+
   ## License
   MIT
   
